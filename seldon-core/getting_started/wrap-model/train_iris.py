@@ -2,7 +2,7 @@ import numpy as np
 import os
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
-from sklearn.externals import joblib
+import joblib
 from sklearn import datasets
 
 def main():
