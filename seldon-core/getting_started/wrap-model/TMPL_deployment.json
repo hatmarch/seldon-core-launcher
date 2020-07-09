@@ -17,7 +17,7 @@
                     "spec": {
                         "containers": [
                             {
-                                "image": "${DOCKER_REPO}/sklearn-iris:0.1",
+                                "image": "${SELDON_IMAGE_REPLACE}",
                                 "imagePullPolicy": "IfNotPresent",
                                 "name": "sklearn-iris-classifier",
                                 "resources": {
